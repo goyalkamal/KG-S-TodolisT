@@ -167,16 +167,23 @@ select{
         padding: 30px;
     }
     .input{
+        max-width: 50vh;
         font-size: 40px;
     }
     .item{
         font-size: 40px;
+        overflow: auto;
+        overflow-wrap: break-word;
     }
     .del,.mark{
         padding: 1.4rem;
     }
     .dive{
         margin:2rem;
-        
+        /* min-width :30vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
