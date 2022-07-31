@@ -163,4 +163,20 @@ select{
         align-items: center;
         justify-content: center;
     }
+    .button{
+        padding: 30px;
+    }
+    .input{
+        font-size: 40px;
+    }
+    .item{
+        font-size: 40px;
+    }
+    .del,.mark{
+        padding: 1.4rem;
+    }
+    .dive{
+        margin:2rem;
+        
+    }
 }
